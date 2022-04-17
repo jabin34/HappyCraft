@@ -20,6 +20,9 @@ const Register = () => {
     const navigateLogin = ()=>{
         navigate('/login');
     }
+    if(user){
+        navigate('/home'); 
+    }
     return (
         <div className="container mx-auto p-5 border mt-3">
         <h3 className="text-primary">Register Here!!</h3>
@@ -47,8 +50,7 @@ const Register = () => {
      
       {error}
       <Social/>
-      {/* 
-      <ToastContainer /> */}
+     
     </div>
     );
 };

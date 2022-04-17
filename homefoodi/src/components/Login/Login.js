@@ -19,6 +19,9 @@ const Login = () => {
     const navigateRegister = ()=>{
         navigate('/register');
     }
+    if(user){
+        navigate('/home'); 
+    }
     const resetPassword =async() =>{
     //  await sendPasswordResetEmail(emailRef);
     //  toast("reset password");

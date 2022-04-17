@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, CardGroup} from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import pizza from'../../img/pizza1.png';
+import home from'../../img/foodfb.jpeg';
 const Services = () => {
     const navigate = useNavigate();
    const  checkout = () =>{
@@ -36,7 +37,7 @@ const Services = () => {
    
   </Card>
   <Card className='m-2 border rounded'>
-  <Card.Img variant="top" src={pizza}/>
+  <Card.Img variant="top" src={home}/>
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>

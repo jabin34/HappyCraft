@@ -9,6 +9,7 @@ import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import NotFound from './components/NotFound/NotFound';
 import Register from './components/Register/Register';
+import RequiredAuth from './components/RequiredAuth/RequiredAuth';
 import Services from './components/Service/Services';
 import Header from './Shared/Header/Header';
 
@@ -22,7 +23,7 @@ function App() {
         <Route path='/about' element={<About/>}></Route>
         <Route path='/services' element={<Services/>}></Route>
         <Route path='/blogs' element={<Blogs/>}></Route>
-        <Route path='/checkout' element={<Checkout/>}></Route>
+        <Route path='/checkout' element={<RequiredAuth><Checkout/></RequiredAuth>}></Route>
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/register' element={<Register/>}></Route>
         <Route path='*' element={<NotFound/>}></Route>

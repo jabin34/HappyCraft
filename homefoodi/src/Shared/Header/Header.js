@@ -8,6 +8,7 @@ const Header = () => {
   const [user] = useAuthState(auth);
   const logout = () => {
     signOut(auth);
+    
   };
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -23,7 +24,7 @@ const Header = () => {
           </Nav>
           <Nav>
             <Nav.Link as={Link} to="/checkout">Checkout</Nav.Link>
-            {user? <Nav.Link onClick={logout}>Singout</Nav.Link>:
+            {user? <Nav><Nav.Link onClick={logout}>Singout</Nav.Link><Nav.Link >{user?.displayName}</Nav.Link></Nav>:
             <Nav.Link as={Link} to="/login">Login</Nav.Link>}
             
           </Nav>

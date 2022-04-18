@@ -45,7 +45,7 @@ const Services = () => {
 </CardGroup>
 
         </div>
-        <Footer/> 
+       
       </div>
        
     );

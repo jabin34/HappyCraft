@@ -1,0 +1,21 @@
+[
+    {
+        "id":1,
+        "reviews":"Always speedy delivery and products are good value for money.",
+        "time":"Tom rey - Monday, 18 April 2022",
+        "rating":5
+    },
+    {
+        "id":2,
+        "reviews":"Friendly and helpful service with good notification of dispatch status.",
+        "time":"Job marke - Saturday, 14 June 2021",
+        "rating":4
+    },
+   
+    {
+        "id":4,
+        "reviews":"Arrived on time Quality as described,beautiful handmade things",
+        "time":"Pauline Johnston - Friday, 13 April 2022",
+        "rating":5
+    }
+]

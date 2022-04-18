@@ -6,6 +6,7 @@ import slider from'../../img/slider.jpeg';
 import home from'../../img/homefood.avif';
 import coffe from'../../img/coffe.jpeg';
 import set from'../../img/set.jpeg';
+import paper from '../../img/paper-style.jpeg'
 const Banner = () => {
     return (
         <div className='container-fluid p-0 m-0'>
@@ -13,7 +14,7 @@ const Banner = () => {
   <Carousel.Item style={{height:'100vh'}}>
     <img
       className="d-block w-100 "
-      src={pizza}
+      src={paper}
       alt="First slide"
     />
     <Carousel.Caption style={{top:"12px"}}>

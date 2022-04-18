@@ -6,7 +6,7 @@ const Footer = () => {
       className="container-fluid p-2 mx-auto "
       style={{ background: "black",position:"absolute", height:"40px" }}
     >
-      <p className="text-white text-center">This is belongges to @homefooodi </p>
+      <p className="text-white text-center">This is belongges to @Craft Tale By Israt </p>
     </div>
   );
 };

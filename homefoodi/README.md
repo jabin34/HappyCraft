@@ -1,7 +1,7 @@
 # Project Name: Happy Crafts
 ####  Handmade craft selling website. services include  paper craft,wooden craft and wooelen craft.
 ****************************************************************************
-### Live Project Link:
+### Live Project Link: https://homefoodie-b9dde.web.app
 ****************************************************************************
 ## What this project includes-----------
 * A home page conatining website navbar ,banner  service ,reviews and footer.

@@ -4,6 +4,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 
 import { useNavigate } from 'react-router-dom';
 import auth from '../../firebse.init';
+import Footer from '../../Shared/Footer/Footer';
 import Loading from '../Loading/Loading';
 
 const Checkout = () => {
@@ -21,7 +22,8 @@ const Checkout = () => {
      navigate('/thank');
     }
     return (
-        <div className='container p-5 mx-auto'>
+      <div>
+<div className='container p-5 mx-auto'>
             <h3 className='text-center p-2'>Checkout your items</h3>
            <Form onSubmit={thankpage}> 
   <Row className="mb-3">
@@ -72,6 +74,9 @@ const Checkout = () => {
   </Button>
 </Form>
         </div>
+         <Footer/> 
+      </div>
+        
     );
 };
 

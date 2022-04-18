@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Card, CardGroup} from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
+import Footer from '../../Shared/Footer/Footer';
 import './Service.css';
 
 const Services = () => {
@@ -16,7 +17,8 @@ const Services = () => {
     navigate('/checkout');
    }
     return (
-        <div className='container  mt-2'>
+      <div>
+         <div className='container  mt-2'>
             <h2 className='text-center'>My Services</h2>
            
 <CardGroup className='w-65'>
@@ -41,7 +43,11 @@ const Services = () => {
 
   
 </CardGroup>
+
         </div>
+        <Footer/> 
+      </div>
+       
     );
 };
 

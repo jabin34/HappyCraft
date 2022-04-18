@@ -6,7 +6,7 @@ import Services from '../Service/Services';
 
 const Home = () => {
     return (
-        <div className='container-fluid p-0'>
+        <div className='container-fluid p-0 ' style={{position:"relative"}}>
             <Banner/>
             <Services/>
             <CustomerReview/>

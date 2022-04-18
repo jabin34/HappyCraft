@@ -29,7 +29,7 @@ const About = () => {
                <div className='p-3 mx-auto w-75 mt-3'> <img  className='rounded-circle  w-100'
                src='https://i.ibb.co/j4t10q5/profile.jpg' alt="profile"/></div>
            </div>
-           
+          <Footer/> 
         </div>
     );
     

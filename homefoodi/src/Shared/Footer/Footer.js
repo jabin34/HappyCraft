@@ -3,10 +3,10 @@ import React from "react";
 const Footer = () => {
   return (
     <div
-      className="container-fluid p-2 mx-auto "
-      style={{ background: "black",position:"absolute", height:"40px" }}
+      className="container-fluid mt-5"
+      style={{ background: "black",height:"70px",bottom:'0px' }}
     >
-      <p className="text-white text-center">This is belongges to @Happy Crafts </p>
+      <p className="text-white text-center p-2 ">This is belongges to @Happy Crafts </p>
     </div>
   );
 };

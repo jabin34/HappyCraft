@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../Shared/Footer/Footer";
 
 const Blogs = () => {
   return (
@@ -83,6 +84,7 @@ Firebase Machine Learning.Firebase Authentication,Firebase Realtime Database,4. 
 
       </p>
     </div>
+    <Footer/> 
       </div>
     
   );

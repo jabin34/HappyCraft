@@ -5,7 +5,7 @@ import Services from '../Service/Services';
 
 const Home = () => {
     return (
-        <div>
+        <div className='container-fluid p-0'>
             <Banner/>
             <Services/>
             <Footer/>

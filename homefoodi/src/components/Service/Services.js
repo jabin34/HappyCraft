@@ -19,11 +19,11 @@ const Services = () => {
         <div className='container  mt-2'>
             <h2 className='text-center'>My Services</h2>
            
-<CardGroup>
+<CardGroup className='w-65'>
   {
     service.map((data)=>(
-  <Card key={data.id} className='m-2 border rounded'>
-    <Card.Img variant="top" src={data.url} className="img-fluid"/>
+  <Card key={data.id} className='m-2 border rounded '>
+    <Card.Img variant="top" src={data.url} className="img-fluid h-65 w-100"/>
     <Card.Body>
       <Card.Title>{data.name}</Card.Title>
       <Card.Text>

@@ -1,0 +1,14 @@
+.responsive h2,h5{
+   padding: 2px; 
+}
+@media screen and (max-width:560px) {
+    .responsive h2{
+        font-size: 18px;
+        color: darkred;
+        font-weight: bold;
+     }
+     .responsive h5{
+        font-size: 16px;
+        font-weight:700;
+     }
+}

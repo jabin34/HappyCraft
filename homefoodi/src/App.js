@@ -11,6 +11,7 @@ import NotFound from './components/NotFound/NotFound';
 import Register from './components/Register/Register';
 import RequiredAuth from './components/RequiredAuth/RequiredAuth';
 import Services from './components/Service/Services';
+import Thank from './components/Thankpage/Thank';
 import Header from './Shared/Header/Header';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path='/checkout' element={<RequiredAuth><Checkout/></RequiredAuth>}></Route>
         <Route path='/login' element={<Login/>}></Route>
         <Route path='/register' element={<Register/>}></Route>
+        <Route path='/thank' element={<Thank/>}></Route>
         <Route path='*' element={<NotFound/>}></Route>
      </Routes>
     </div>

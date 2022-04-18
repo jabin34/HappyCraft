@@ -3,12 +3,12 @@ import React from 'react';
 const About = () => {
     return (
         <div className='container'>
-           <div className='d-flex justify-content-between'>
+           <div className='d-flex justify-content-between flex-md-row flex-sm-column-reverse flex-column-reverse text-justify'>
                <div className='p-3'>
-                 <h1>Hi!! I'm Israt Jabin</h1>
-                 <div className='row'>
+                 <h1 className='p-4 m-2'>Hi!! I'm Israt Jabin</h1>
+                 <div className='row p-4 m-2'>
             <h6>My goal: Become a team lead in the next four years.</h6>
-            <p>I will follow a schedule to acheive my goal.Its not a one day thing to become a team lead .Acheiving this i have to lean more,gather more knowledge and work hard.
+            <p>I will follow a schedule to acheive my goal.Its not a one day thing to become a team lead .Acheiving this i have to learn more,gather more knowledge and work hard.
                 Here are some point how i will work hard to acheive my goal.
                 <ul>
                    <li> Set a deadline:This means setting a time-bound goal.how much time the goal is going to take to finally achieve it</li>
@@ -24,7 +24,7 @@ const About = () => {
             </div>
                </div>
                
-               <div className='p-3'> <img  className='rounded-circle border'
+               <div className='p-3 mx-auto w-75'> <img  className='rounded-circle border w-100'
                src='https://i.ibb.co/j4t10q5/profile.jpg' alt="profile"/></div>
            </div>
         </div>
